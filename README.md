@@ -26,6 +26,14 @@ The user will be able to:
 
   * View the total duration of each workout from the past seven workouts on the `stats` page.
 
+   The landing page looks like below
+      ![landing Page image](/images/landingPage.png)
+
+    The stats page shows combined weight of multiple exercises from the past seven workouts.
+      ![stats Page image](/images/statsPage.png)
+
+
+
   ## Installation & Usage
 1. Clone this repository to use this application on local machine.
 2. To install dependencies,run the below command 
@@ -35,7 +43,7 @@ The user will be able to:
 4. To run the application type node server.js. This will start localhost server.
 
 5. github Link to the deployed application https://github.com/sangeethaNR/workout-tracker.git
-6. View application live in https://secure-scrubland-44183.herokuapp.com/
+6. View application live in 
 
 
 
