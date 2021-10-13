@@ -20,6 +20,7 @@ async function initWorkout() {
 }
 
 function tallyExercises(exercises) {
+  console.log('excersise:' + JSON.stringify(exercises));
   const tallied = exercises.reduce((acc, curr) => {
     if (curr.type === "resistance") {
       acc.totalWeight = (acc.totalWeight || 0) + curr.weight;

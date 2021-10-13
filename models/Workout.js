@@ -32,7 +32,11 @@ const ExcerciseSchema = new Schema({
       sets: {
         type: Number,
         Default: 0
-      }
+      },
+      distance: {
+        type: Number,
+        Default: 0
+      },
     }],
     totalDuration: {
         type: Number,
