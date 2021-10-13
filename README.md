@@ -27,10 +27,11 @@ The user will be able to:
   * View the total duration of each workout from the past seven workouts on the `stats` page.
 
    The landing page looks like below
-      ![landing Page image](/images/landingPage.png)
+    
+ <img src="./public/images/landingPage.png" width ="900">
 
-    The stats page shows combined weight of multiple exercises from the past seven workouts.
-      ![stats Page image](/images/statsPage.png)
+ The stats page shows combined weight of multiple exercises from the past seven workouts.
+        <img src="./public/images/statsPage.png" width ="900">
 
 
 
