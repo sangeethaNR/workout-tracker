@@ -32,27 +32,6 @@ db.Workout.aggregate( [
     res.status(400).json(err);
   });
 });
-// Rout used to display as chart and graph inn stats page
-router.get("/range",(req,res) =>{
-
-  db.Workout.aggregate( [
-      {
-          $addFields: {
-          
-            totalDuration: { $sum : '$exercises.duration' }
-          }
-      }
-      ])
-  
-  .then(dbWorkouts => {
-    //  console.log('json:' + dbWorkouts)
-      res.json(dbWorkouts);
-    })
-    .catch(err => {
-        console.log("error:" +err)
-      res.status(400).json(err);
-    });
-  });
 
 // create a new excercise in workout collection 
 
@@ -89,5 +68,29 @@ router.post("/",({body},res) =>{
             res.status(400).json(err);
           });
         });
+
+
+// Route used to display as chart and graph inn stats page
+router.get("/range",(req,res) =>{
+
+  db.Workout.aggregate( [
+      {
+          $addFields: {
+          
+            totalDuration: { $sum : '$exercises.duration' }
+          }
+      }
+      ])
+  
+  .then(dbWorkouts => {
+    //  console.log('json:' + dbWorkouts)
+      res.json(dbWorkouts);
+    })
+    .catch(err => {
+        console.log("error:" +err)
+      res.status(400).json(err);
+    });
+  });
+
 
 module.exports = router;
