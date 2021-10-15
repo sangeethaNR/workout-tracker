@@ -4,13 +4,13 @@
   The project is to create and track daily workouts.With thi app we will to be able to log multiple exercises in a workout on a given day and  also be able to track the name, type, weight, sets, reps, and duration of exercise.
 
 # Technologies Used
-JavaScript
-Node.js
-Express.js
-MYSQL
-AtlasDB
-Mongoose and MongoDB
-Heroku
+ 1. avaScript
+ 2. Node.js
+ 3. Express.js
+ 4. MYSQL  
+ 5. AtlasDB
+ 6. Mongoose and MongoDB
+ 7. Heroku
 
 # Workflow of the app
 
@@ -44,7 +44,7 @@ The user will be able to:
 4. To run the application type node server.js. This will start localhost server.
 
 5. github Link to the deployed application https://github.com/sangeethaNR/workout-tracker.git
-6. View application live in 
+6. View application live in https://trackerworkout.herokuapp.com/
 
 
 
