@@ -4,7 +4,7 @@
   The project is to create and track daily workouts.With thi app we will to be able to log multiple exercises in a workout on a given day and  also be able to track the name, type, weight, sets, reps, and duration of exercise.
 
 # Technologies Used
- 1. avaScript
+ 1. javaScript
  2. Node.js
  3. Express.js
  4. MYSQL  
